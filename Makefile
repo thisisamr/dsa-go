@@ -5,3 +5,7 @@ build:
 
 run:
 	@./bin/main.exe
+
+test:
+	@echo " Running singly linked list tests ..."
+	@go test -v ./tests/
